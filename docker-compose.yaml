@@ -1,10 +1,10 @@
 version: "3"
 services:
-  fb-sync:
+  tool:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: fb-sync
+    container_name: tool
     restart: always
     environment:
       - PORT=1000
